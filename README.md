@@ -2,7 +2,7 @@
 Submission for Exun 2020 Girls In Tech Competition
 
 ![](demo-screen-capture.gif)
-
+(It is a trimmed clip of the entire visualisation)
 ### Description
 This is a visualisation of night and day with the respective relative position of the Earth, Sun and Moon (not to scale).
 
