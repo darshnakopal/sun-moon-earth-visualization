@@ -1,0 +1,38 @@
+<!DOCTYPE html><html lang="en"><head>
+  <script src="p5.js"></script>
+  <script src="p5.sound.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+</head>
+
+<body>
+
+  <div id="sketch-container">  </div>
+    <script src="sketch.js"></script>
+    <script>
+        let isSafari = navigator.vendor && navigator.vendor.indexOf('Apple') > -1 &&
+            navigator.userAgent &&
+            navigator.userAgent.indexOf('CriOS') == -1 &&
+            navigator.userAgent.indexOf('FxiOS') == -1;
+        if (isSafari) {
+            alert("There may be some issues on Safari. Please use Chrome or Firefox for best viewing experiencce.");
+        }
+    </script>
+    
+    <div class="container-fluid mt-3">
+      <h1><strong>Sun-Moon-Earth Visualisation</strong></h1>
+      <h3>By Darshna Kopal</h3>
+      <p>
+        This is a visualisation of night and day with the respective relative position of the Earth, Sun and Moon (not to scale).
+      </p>
+      <p>The left half shows how Earth, Sun and Moon move in the space and also highlights New Moon day and Full Moon Day.</p>
+      <p>The right half shows how we look at the Sun and Moon from Earth. Also, the shape of Moon changes with respect to the change in its position.</p>
+      <p><strong>Inputs:</strong>
+        <br>1. The time slider changes days throughout an year.
+        <br>2. The time step slider increases or decreases rate of time change per frame.
+      <br>3. The Play/Pause button pauses automatic time change.</p>
+    </div>
+
+
+</body></html>
