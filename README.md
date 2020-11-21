@@ -1,4 +1,4 @@
-# Sun-Moon-Earth-Visualization
+# Sun-Moon-Earth Visualization
 Submission for Exun 2020 Girls In Tech Competition
 
 ### Description
@@ -12,3 +12,6 @@ The right half shows how we look at the Sun and Moon from Earth. Also, the shape
 1. The time slider changes days throughout an year.
 2. The time step slider increases or decreases rate of time change per frame.
 3. The Play/Pause button pauses automatic time change.
+
+### Author
+Darshna Kopal
